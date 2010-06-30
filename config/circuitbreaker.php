@@ -2,8 +2,9 @@
 
 return array
 (
-	'default'   => array(
-		'fail_threshold'  => 5,     // Number of failed attempts before circuit is opened
-		'ttl'             => 300,   // Number of seconds to elapse before a circuit is closed after failure
+	'native'   => array(
+		'driver'          => 'native'  // The name of the persistent storage driver
+		'fail_threshold'  => 5,        // Number of failed attempts before circuit is opened
+		'ttl'             => 300,      // Number of seconds to elapse before a circuit is closed after failure
 	),
 );
