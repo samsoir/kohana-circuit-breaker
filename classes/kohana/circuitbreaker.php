@@ -5,7 +5,8 @@
  * environments where services that are unavailable should
  * be handled gracefully.
  *
- * @package    Kohana
+ * @package    Kohana/CircuitBreaker
+ * @category   Base
  * @author     Kohana Team
  * @copyright  (c) 2007-2010 Kohana Team
  * @license    http://kohanaphp.com/license

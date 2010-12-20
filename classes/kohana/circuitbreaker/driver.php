@@ -2,7 +2,8 @@
 /**
  * CircuitBreaker Driver 
  *
- * @package default
+ * @package    Kohana/CircuitBreaker
+ * @category   Driver
  */
 interface Kohana_CircuitBreaker_Driver {
 
